@@ -12,9 +12,7 @@ body .page-wrapper {
 	body .navigation {
 		font-size: 14px;
 	}
-	body .page-header .navigation .level0.parent > a:after {
-    	display: none;
-	}
+
 
 	body .header.content {
 		max-width: none;
@@ -111,6 +109,10 @@ body .fotorama__fullscreen-icon:before {
 }
 
 @media all and (min-width:769px),print {
+
+		body .page-header .navigation .level0.parent > a:after {
+    	display: none;
+	}
 	body .page-header.type9 .nav-sections {
 		margin: 70px 0 0;
 		position: static;
