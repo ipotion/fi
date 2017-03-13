@@ -6,9 +6,31 @@
 	    border-top-width: 0px;
 	}
 
-body .page-wrapper {
-	transition: none !important;
-}
+	body .page-wrapper {
+		transition: none !important;
+	}
+
+	body .page-header.type9 .header.panel .minicart-wrapper .action.showcart {
+	    display: block;
+	    margin-top: -2px;
+	    width: 32px;
+	    height: 30px;
+	    background: url(https://ipotion.github.io/fi/basket.svg) no-repeat top left;
+	    color: red;
+	}
+	body .page-header.type9 .header.panel .minicart-wrapper .action.showcart:after {
+		display: none;
+	}
+
+	body .page-header.type9 .header.panel .search-area .search-toggle-icon {
+		height: 30px;
+		width: 32px;
+		background: url(https://ipotion.github.io/fi/search.svg) no-repeat top left;
+		display: block;
+	}
+	body .page-header.type9 .header.panel .search-area .search-toggle-icon i {
+		display: none;
+	}
 	body .navigation {
 		font-size: 14px;
 	}
