@@ -179,6 +179,15 @@ body .fotorama__fullscreen-icon:before {
 	body .page-header.type9 .header.panel .search-area .search-toggle-icon {
 		display: block;
 	}
+	body page-header.type9 .block-search .label {
+	    float: right;
+	    margin-right: 50px;
+	    margin-top: 21px;
+	    display: block;
+	    width: 32px;
+	    height: 30px;
+	    background: url(https://ipotion.github.io/fi/search.svg) no-repeat top left;
+	}
 	body .navigation.sw-megamenu  {
 		max-width: none;
 		padding: 0px !important;
@@ -477,6 +486,18 @@ body .fotorama__fullscreen-icon:before {
 	}
 	body .page-header.type9 .bottom-panel {
 		top: 42px;
+		right: 15px;
+	}
+	body .page-header.type9 .block-search .label {
+	    margin-right: 50px;
+	    margin-top: 21px;
+	    display: block;
+	    width: 32px;
+	    height: 30px;
+	    background: url(https://ipotion.github.io/fi/search.svg) no-repeat top left;
+	}
+	body form#search_mini_form label:before {
+		display: none;
 	}
 	body .full-screen-slider {
  
