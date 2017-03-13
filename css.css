@@ -18,6 +18,9 @@
 	    background: url(https://ipotion.github.io/fi/basket.svg) no-repeat top left;
 	    color: red;
 	}
+	body .minicart-wrapper .action.showcart .counter.qty {
+		top: 0;
+	}
 	body .page-header.type9 .header.panel .minicart-wrapper .action.showcart:before {
 		display: none;
 	}
@@ -26,7 +29,6 @@
 		height: 30px;
 		width: 32px;
 		background: url(https://ipotion.github.io/fi/search.svg) no-repeat top left;
-		display: block;
 	}
 	body .page-header.type9 .header.panel .search-area .search-toggle-icon i {
 		display: none;
@@ -174,7 +176,9 @@ body .fotorama__fullscreen-icon:before {
 	body .sticky-logo .logo img {
 	    margin: 0;
 	}
-
+	body .page-header.type9 .header.panel .search-area .search-toggle-icon {
+		display: block;
+	}
 	body .navigation.sw-megamenu  {
 		max-width: none;
 		padding: 0px !important;
@@ -471,7 +475,9 @@ body .fotorama__fullscreen-icon:before {
 	body .page-header.type9 .logo {
 	    height: 41px;
 	}
-
+	body .page-header.type9 .bottom-panel {
+		top: 42px;
+	}
 	body .full-screen-slider {
  
 	}
