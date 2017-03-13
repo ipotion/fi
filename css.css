@@ -249,11 +249,15 @@ body .fotorama__fullscreen-icon:before {
 	body .page-header.type9 .header.panel .search-area .search-toggle-icon i:before, body .page-header.type9 .header.panel .minicart-wrapper .action.showcart:before, body .page-header.type9 .header.panel .minicart-wrapper .action.showcart.active:before {
 		font-size: 36px;
 	}
+	body .page-header.type9 .header.panel .top-panel {
+		display: inline-block;
+	}
 	body .page-header.type9 .header.panel .top-panel>.links {
 	    padding: 0;
 	    list-style: none;
 	    position: absolute;
 	    top: 0;
+	    float: right !important;
 	    width: 227px;
 	    right: 0;
 	    text-align: right;
@@ -522,7 +526,7 @@ body .fotorama__fullscreen-icon:before {
 }
 
 .greet.welcome {
-	display: none;
+	display: none !important;
 }
 .image-link span.category-title {
     min-width: 150px;
