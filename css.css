@@ -292,16 +292,17 @@ body .fotorama__fullscreen-icon:before {
 
 	body .page-header.type9 .header.panel .block-search {
 	    display: none;
-	    position: fixed;
-	    right: 75px;
+		position: fixed;
 	    top: 0;
 	    margin-top: 0;
 	    height: 134px;
 	    background: #eee;
 	    width: calc(100% - 150px);
-	    left: 10px;
+	    left: 0;
 	    z-index: 9;
 	    outline: none;
+	    padding: 0;
+	    margin-left: 75px;
 	}
 
 	body .page-wrapper > .breadcrumbs .items {
@@ -333,10 +334,13 @@ body .fotorama__fullscreen-icon:before {
 	    border-left: 0px solid #ccc;
 	    width: 100px;
 	    line-height: 134px;
+	    background: url(https://ipotion.github.io/fi/search.svg) no-repeat center center;
+    	background-size: 50px 50px;
 	}
 	body .page-header.type9 .header.panel .block-search .action.search:before {
 		font-size: 50px;
 		color: #070f18;
+		display: none;
 	}
 	body .full-screen-slider {
 		width: calc(100% - 150px);
