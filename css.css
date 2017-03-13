@@ -12,13 +12,13 @@
 
 	body .page-header.type9 .header.panel .minicart-wrapper .action.showcart {
 	    display: block;
-	    margin-top: -2px;
+	    margin-top: 0px;
 	    width: 32px;
 	    height: 30px;
 	    background: url(https://ipotion.github.io/fi/basket.svg) no-repeat top left;
 	    color: red;
 	}
-	body .page-header.type9 .header.panel .minicart-wrapper .action.showcart:after {
+	body .page-header.type9 .header.panel .minicart-wrapper .action.showcart:before {
 		display: none;
 	}
 
@@ -226,7 +226,7 @@ body .fotorama__fullscreen-icon:before {
 	body .page-header.type9 .header.panel {
 	    margin-top: 0;
 	    height: 134px;
-	    padding: 0;
+	    padding-right: 0px;
 	    right: 0px;
 	    padding-top: 85px;
 	    top: 0px;
