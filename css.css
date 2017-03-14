@@ -428,7 +428,7 @@ body .fotorama__fullscreen-icon:before {
 	    padding-top: 5px;
 	    background: transparent !important;
 	}
-	html body.layout-fullwidth.catalog-category-view .page-main, html body.layout-fullwidth.catalog-product-view .page-main, body.layout-fullwidth.cms-index-index .page-main {
+	html body.layout-fullwidth.catalog-category-view .page-main, html body.layout-fullwidth.catalog-product-view .page-main, body.layout-fullwidth .page-main {
 		padding-left: 0;
 		padding: 0;
 	    padding-right: 0;
