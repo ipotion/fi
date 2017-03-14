@@ -571,5 +571,7 @@ p.bigPromoTag.black {
 }
 
 
-
+body .footer-middle ul.contact-info li {
+    padding: 10px 0;
+}
 
