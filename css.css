@@ -572,6 +572,13 @@ p.bigPromoTag.black {
 
 
 body .footer-middle ul.contact-info li {
-    padding: 10px 0;
+    padding: 10px 0 !important;
+}
+body .footer-middle ul.contact-info li p {
+    line-height: 1;
+}
+body .footer-middle ul.contact-info [class^="porto-icon-"], .footer-middle ul.contact-info [class*=" porto-icon-"] {
+	line-height: 13px;
+	font-size: 13px;
 }
 
