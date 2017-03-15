@@ -570,9 +570,12 @@ p.bigPromoTag.black {
     color: #fff;
 }
 
-
+body .footer-middle ul.contact-info {
+    margin-top: -5px;
+}
 body .footer-middle ul.contact-info li {
     padding: 10px 0 !important;
+    line-height: 1;
 }
 body .footer-middle ul.contact-info li p {
     line-height: 1;
