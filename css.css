@@ -133,8 +133,11 @@ body .fotorama__fullscreen-icon:before {
 }
 
 @media all and (min-width:769px),print {
+	body .container {
+		padding: 0px !important;
+	}
 
-		body .page-header .navigation .level0.parent > a:after {
+	body .page-header .navigation .level0.parent > a:after {
     	display: none;
 	}
 	body .page-header.type9 .nav-sections {
@@ -429,9 +432,9 @@ body .fotorama__fullscreen-icon:before {
 	    background: transparent !important;
 	}
 	html body.layout-fullwidth.catalog-category-view .page-main, html body.layout-fullwidth.catalog-product-view .page-main, body.layout-fullwidth .page-main {
-		padding-left: 0;
+		padding-left: 0 !important;
 		padding: 0;
-	    padding-right: 0;
+	    padding-right: 0 !important;
 	    width: calc(100% - 150px);
 	    position: relative;
 	}
