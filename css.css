@@ -461,6 +461,12 @@ body .fotorama__fullscreen-icon:before {
 	body .owl-item .item.up100 {
 		background-position-y: -300px !important;
 	}
+	body .footer-middle>.container {
+    	width: calc(100% - 150px);
+	}
+	body .footer-bottom>.container {
+    	width: calc(100% - 150px);
+	}
 }
 
 
